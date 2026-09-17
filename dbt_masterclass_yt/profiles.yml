@@ -8,4 +8,12 @@ dbt_masterclass_yt:
       threads: 1
       token: dapi7f0faf7053197dfd7aa80e8b09b19ce7
       type: databricks
+    prod:
+      catalog: dbt_prod
+      host: dbc-4f33a142-7e8d.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/db70516451dac8fb
+      schema: default
+      threads: 1
+      token: dapi7f0faf7053197dfd7aa80e8b09b19ce7
+      type: databricks
   target: dev
