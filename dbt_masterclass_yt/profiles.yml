@@ -1,19 +1,19 @@
 dbt_masterclass_yt:
   outputs:
     dev:
-      catalog: dbt_masterclass
-      host: dbc-4f33a142-7e8d.cloud.databricks.com
-      http_path: /sql/1.0/warehouses/db70516451dac8fb
+      catalog: dbt_dev
+      host: 
+      http_path: 
       schema: default
       threads: 1
-      token: dapi7f0faf7053197dfd7aa80e8b09b19ce7
+      token: 
       type: databricks
     prod:
       catalog: dbt_prod
-      host: dbc-4f33a142-7e8d.cloud.databricks.com
-      http_path: /sql/1.0/warehouses/db70516451dac8fb
+      host: 
+      http_path: 
       schema: default
       threads: 1
-      token: dapi7f0faf7053197dfd7aa80e8b09b19ce7
+      token: 
       type: databricks
   target: dev
