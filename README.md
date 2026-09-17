@@ -1,4 +1,5 @@
-## dbt Data Transformation Pipeline for Databricks## Executive Summary
+## dbt Data Transformation Pipeline for Databricks
+## Executive Summary
 This project delivers an automated Data Transformation Pipeline that converts raw, messy operational data into clean, structured tables ready for business analytics. Built using dbt (data build tool) and Databricks, it eliminates manual data preparation, while the uv package manager ensures consistent, rapid team deployment.
 ## Business Problem
 
