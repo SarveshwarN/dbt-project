@@ -1,4 +1,4 @@
-dbt_masterclass_yt:
+dbt_dev:
   outputs:
     dev:
       catalog: dbt_dev
